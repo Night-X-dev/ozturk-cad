@@ -353,3 +353,10 @@ p { margin: 0; text-wrap: pretty; }
   .sinema .sahne-giris { height: 170svh; }
   .sinema .sahne-ozet { height: 150svh; }
 }
+
+/* Dokunma alanları: bağlantılar parmakla rahat basılacak yükseklikte (en az 44px) */
+@media (min-width: 721px) { .menu a:not(.menu-indir) { display: inline-block; padding: 12px 2px; } }
+.belge-liste h3 a { display: inline-block; padding: 10px 0; margin: -10px 0; }
+.alt-baglanti a, .kilavuz a, .geri { display: inline-block; padding: 12px 0; }
+.marka { min-height: 44px; }
+.hero-asagi { width: 44px; height: 44px; }
