@@ -1,0 +1,73 @@
+[
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/lansman.mp4",
+    "poster": "lansman.webp",
+    "baslik": "Elektrik pano şeması çiz, simüle et, belgele",
+    "aciklama": "Gerçek program ekranlarıyla devre tasarımı, simülasyon ve proje çıktılarının tanıtımı.",
+    "sure_sn": 90.005,
+    "genislik": 1920,
+    "yukseklik": 1080,
+    "bayt": 19794876,
+    "yon": "yatay"
+  },
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/hikaye.mp4",
+    "poster": "hikaye.webp",
+    "baslik": "ÖZTÜRK CAD hikâye filmi",
+    "aciklama": "Sahadaki pano hatasından sanal devre denemesine uzanan hikâye ve program tanıtımı.",
+    "sure_sn": 207.573,
+    "genislik": 1920,
+    "yukseklik": 1080,
+    "bayt": 26746989,
+    "yon": "yatay",
+    "altyazi": "hikaye.vtt"
+  },
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/reels-01.mp4",
+    "poster": "reels-01.webp",
+    "baslik": "İlk çalıştırma",
+    "aciklama": "Devreyi sahaya çıkmadan önce program içinde deneme fikrini anlatan kısa video.",
+    "sure_sn": 46.208,
+    "genislik": 1080,
+    "yukseklik": 1920,
+    "bayt": 5287876,
+    "yon": "dikey",
+    "altyazi": "reels-01.vtt"
+  },
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/reels-02.mp4",
+    "poster": "reels-02.webp",
+    "baslik": "Sanal PLC ve HMI",
+    "aciklama": "Sanal PLC programı ve HMI operatör ekranının birlikte kullanımını gösteren kısa video.",
+    "sure_sn": 44.736,
+    "genislik": 1080,
+    "yukseklik": 1920,
+    "bayt": 3881067,
+    "yon": "dikey",
+    "altyazi": "reels-02.vtt"
+  },
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/reels-03.mp4",
+    "poster": "reels-03.webp",
+    "baslik": "EDZ ve kendi ürünün",
+    "aciklama": "EDZ içe aktarma ve kendi ekipmanını tanımlama özelliklerini gösteren kısa video.",
+    "sure_sn": 33.706,
+    "genislik": 1080,
+    "yukseklik": 1920,
+    "bayt": 2809670,
+    "yon": "dikey",
+    "altyazi": "reels-03.vtt"
+  },
+  {
+    "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/medya/reels-04.mp4",
+    "poster": "reels-04.webp",
+    "baslik": "Projeden teslime",
+    "aciklama": "Proje sayfalarından listelere ve çıktı dosyalarına uzanan iş akışını gösteren kısa video.",
+    "sure_sn": 27.37,
+    "genislik": 1080,
+    "yukseklik": 1920,
+    "bayt": 2212817,
+    "yon": "dikey",
+    "altyazi": "reels-04.vtt"
+  }
+]

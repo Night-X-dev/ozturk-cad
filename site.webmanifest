@@ -1,0 +1,13 @@
+{
+  "name": "ÖZTÜRK CAD",
+  "short_name": "ÖZTÜRK CAD",
+  "lang": "tr",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#f6f7f9",
+  "theme_color": "#17212f",
+  "icons": [
+    {"src": "assets/marka/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/marka/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

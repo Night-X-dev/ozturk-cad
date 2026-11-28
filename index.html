@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ÖZTÜRK CAD — Elektrik ve Otomasyonun Dijital Dünyası</title>
+<meta name="description" content="ÖZTÜRK CAD ile elektrik ve otomasyon projelerini çiz, PLC ile simüle et, malzeme listesini ve PDF, DXF, DWG çıktılarını aynı projeden al. Windows için indir; yıllık lisansla kullanılır.">
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131c28" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/marka/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/marka/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="assets/marka/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="ÖZTÜRK CAD — Elektrik ve Otomasyonun Dijital Dünyası">
+<meta property="og:description" content="Projelerini tasarla, devrelerini oluştur, sistemlerini simüle et.">
+<meta property="og:image" content="https://ozturkcad.netlify.app/assets/marka/og-paylasim.png">
+<meta property="og:url" content="https://ozturkcad.netlify.app/">
+<link rel="canonical" href="https://ozturkcad.netlify.app/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="assets/yazi/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('ozcad-tema');if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+<script src="js/site.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ÖZTÜRK CAD","applicationCategory":"DesignApplication","operatingSystem":"Windows 10, Windows 11","inLanguage":"tr","description":"Elektrik ve otomasyon projeleri için şema çizimi, PLC simülasyonu, malzeme listesi ve PDF/DXF/DWG çıktısı.","offers":{"@type":"Offer","price":"99","priceCurrency":"USD","description":"Yıllık lisans, bir bilgisayar"},"url":"https://ozturkcad.netlify.app/","downloadUrl":"https://github.com/Night-X-dev/ozturk-cad/releases/latest"}</script>
+</head>
+<body>
+<a class="atla" href="#icerik">İçeriğe geç</a>
+
+<svg width="0" height="0" class="gizli" aria-hidden="true" focusable="false">
+  <symbol id="amblem" viewBox="0 0 26 26">
+    <rect x="0.6" y="0.6" width="24.8" height="24.8" rx="4.6" fill="#17212f"/>
+    <path d="M13 3v6M13 17v6" stroke="#fcfdfe" stroke-width="2" stroke-linecap="round"/>
+    <path class="bicak" d="M13 9l-5 8" stroke="#e8590c" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="13" cy="9" r="1.1" fill="#e8590c"/>
+  </symbol>
+  <symbol id="amblem-cizgi" viewBox="0 0 26 26">
+    <path d="M13 3v6M13 17v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <path d="M13 9l-5 8" stroke="#e8590c" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="13" cy="9" r="1.1" fill="#e8590c"/>
+  </symbol>
+  <symbol id="ok-asagi" viewBox="0 0 24 24"><path d="M12 4v13m0 0-5.5-5.5M12 17l5.5-5.5M5 20.5h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="gunes" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></g></symbol>
+  <symbol id="ay" viewBox="0 0 24 24"><path d="M20 14.6A8.5 8.5 0 0 1 9.4 4 8.5 8.5 0 1 0 20 14.6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  <symbol id="menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+</svg>
+
+<header class="ust" data-ust>
+  <nav class="ust-ic" aria-label="Ana menü">
+    <a class="marka" href="#ana-sayfa" aria-label="ÖZTÜRK CAD ana sayfa">
+      <svg class="marka-amblem" aria-hidden="true"><use href="#amblem"/></svg>
+      <span>ÖZTÜRK CAD</span>
+    </a>
+    <button class="menu-ac" type="button" aria-expanded="false" aria-controls="menu-liste" data-menu-ac>
+      <svg aria-hidden="true"><use href="#menu"/></svg><span class="gizli">Menüyü aç</span>
+    </button>
+    <ul class="menu" id="menu-liste" data-menu>
+      <li><a href="#ana-sayfa">Ana Sayfa</a></li>
+      <li><a href="#ozellikler">Özellikler</a></li>
+      <li data-video-menu hidden><a href="#videolar">Videolar</a></li>
+      <li><a href="#belgeler">Belgeler</a></li>
+      <li><a href="#hakkinda">Hakkında</a></li>
+      <li><a href="#fiyat">Fiyat</a></li>
+      <li><a class="menu-indir" href="#indir">İndir</a></li>
+      <li>
+        <button class="tema" type="button" data-tema-dugme aria-label="Temayı değiştir">
+          <svg class="tema-gunes" aria-hidden="true"><use href="#gunes"/></svg>
+          <svg class="tema-ay" aria-hidden="true"><use href="#ay"/></svg>
+        </button>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main id="icerik">
+  <div class="sahne sahne-giris" data-sahne="giris">
+  <section class="hero" id="ana-sayfa" aria-labelledby="hero-baslik">
+    <svg class="hero-filigran" aria-hidden="true"><use href="#amblem-cizgi"/></svg>
+    <div class="hero-ic">
+      <svg class="hero-amblem" viewBox="0 0 26 26" role="img" aria-label="ÖZTÜRK CAD amblemi">
+        <rect x="0.6" y="0.6" width="24.8" height="24.8" rx="4.6" fill="#17212f"/>
+        <path d="M13 3v6M13 17v6" stroke="#fcfdfe" stroke-width="2" stroke-linecap="round"/>
+        <g class="bicak"><path d="M13 9l-5 8" stroke="#e8590c" stroke-width="2.4" stroke-linecap="round"/><circle cx="13" cy="9" r="1.1" fill="#e8590c"/></g>
+      </svg>
+      <p class="hero-marka">ÖZTÜRK CAD</p>
+      <h1 id="hero-baslik">Elektrik ve Otomasyonun Dijital Dünyası.</h1>
+      <p class="hero-alt">Projelerini tasarla, devrelerini oluştur, sistemlerini simüle et.</p>
+      <a class="indir-dugme" href="#indir" data-indir>
+        <span>ÖZTÜRK CAD’i İndir</span>
+        <svg aria-hidden="true"><use href="#ok-asagi"/></svg>
+      </a>
+      <p class="kod-satiri" data-surum-satiri aria-live="polite">
+        <span>Sürüm <b data-alan="surum">—</b></span>
+        <span data-alan="boyut">—</span>
+        <span data-alan="isletimSistemi">Windows</span>
+        <span>Güncelleme <time data-alan="tarih">—</time></span>
+      </p>
+      <p class="indir-hata" data-indir-hata role="alert" hidden></p>
+      <noscript><p class="indir-hata">İndirme bilgileri için tarayıcınızda JavaScript açık olmalı.</p></noscript>
+    </div>
+    <a class="hero-asagi" href="#ozellikler" aria-label="Özelliklere in">
+      <svg aria-hidden="true"><use href="#ok-asagi"/></svg>
+    </a>
+    <figure class="giris-ekran" aria-hidden="true">
+      <img src="assets/ekran/02-simulasyon-kucuk.webp" srcset="assets/ekran/02-simulasyon-kucuk.webp 1280w, assets/ekran/02-simulasyon.webp 2560w" sizes="min(1120px, 90vw)" alt="" width="2560" height="1600" decoding="async">
+      <figcaption>Çift depolu pompa istasyonu, simülasyon çalışırken.</figcaption>
+    </figure>
+  </section>
+  </div>
+
+  <div class="sahne sahne-ozet" data-sahne="ozet">
+  <section class="ozet" aria-label="Kısaca ÖZTÜRK CAD">
+    <p class="ozet-metin" data-kelime>Şemayı çiz. PLC ile dene. Panoyu yerleştir. <span>Malzeme listesini ve çizim dosyalarını aynı projeden teslim et.</span></p>
+  </section>
+  </div>
+
+  <section class="ozellikler hikaye" id="ozellikler" aria-labelledby="ozellik-baslik">
+    <h2 id="ozellik-baslik" class="bolum-baslik" data-goster>Tek projede, sahaya çıkmadan önce.</h2>
+    <div class="hikaye-sahne" data-hikaye>
+    <div class="hikaye-adimlar">
+
+    <article class="kalem" data-adim>
+      <div class="kalem-metin">
+        <h3>Elektrik Devre Tasarımı</h3>
+        <p>Güç ve kumanda devrelerini sembol kütüphanesiyle çiz. Klemens, kablo ve etiketler projeyle birlikte numaralanır.</p>
+        <dl class="kalem-ozellik"><div><dt>Sayfa</dt><dd>Çok sayfalı, çapraz başvurulu</dd></div><div><dt>İçe aktarma</dt><dd>EPLAN EDZ ürün dosyaları</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/01-devre-tasarimi.webp" srcset="assets/ekran/01-devre-tasarimi-kucuk.webp 1280w, assets/ekran/01-devre-tasarimi.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="ÖZTÜRK CAD şema düzenleyicisinde PLC ile yıldız-üçgen yol verme devresi" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Şema düzenleyici</figcaption></figure>
+    </article>
+
+    <article class="kalem kalem-ters" data-adim>
+      <div class="kalem-metin">
+        <h3>Gerçek Zamanlı Simülasyon</h3>
+        <p>Butona bas, akımın yolunu gör. Sanal PLC, gerçek CPU ve kart modelleriyle Structured Text programını devreyle birlikte çalıştırır.</p>
+        <dl class="kalem-ozellik"><div><dt>PLC</dt><dd>43 CPU ve kart modeli</dd></div><div><dt>Operatör ekranı</dt><dd>HMI tasarımı ve canlı bağlantı</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/02-simulasyon.webp" srcset="assets/ekran/02-simulasyon-kucuk.webp 1280w, assets/ekran/02-simulasyon.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="Çift depolu pompa istasyonu simülasyonu çalışırken PLC kartları ve HMI operatör paneli" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Simülasyon</figcaption></figure>
+    </article>
+
+    <article class="kalem" data-adim>
+      <div class="kalem-metin">
+        <h3>Gelişmiş Malzeme Yönetimi</h3>
+        <p>Ekipman kataloğu üretici, sipariş kodu ve teknik bilgileri tutar. Ürünler panoya gerçek ölçüleriyle yerleşir.</p>
+        <dl class="kalem-ozellik"><div><dt>Katalog</dt><dd>Kaynak ve doğrulama durumu</dd></div><div><dt>Ürün</dt><dd>Görsel, uç ve işlev tanımı</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/06-pano.webp" srcset="assets/ekran/06-pano-kucuk.webp 1280w, assets/ekran/06-pano.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="Ölçülü pano yerleşimi penceresinde raylar, kanallar ve ekipmanların yerleşimi" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Pano yerleşimi</figcaption></figure>
+    </article>
+
+    <article class="kalem kalem-ters" data-adim>
+      <div class="kalem-metin">
+        <h3>Otomatik Malzeme Listesi</h3>
+        <p>Projedeki her parça sayfa ve adetle listeye girer. Kablo listesi ve teknik katalog aynı veriden hazırlanır.</p>
+        <dl class="kalem-ozellik"><div><dt>Çıktı</dt><dd>Excel (XLSX)</dd></div><div><dt>Kapsam</dt><dd>Malzeme, kablo, klemens</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/03-malzeme.webp" srcset="assets/ekran/03-malzeme-kucuk.webp 1280w, assets/ekran/03-malzeme.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="Otomatik malzeme listesi; ekipman adları, teknik özellikler, etiketler ve adetler" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Malzeme listesi</figcaption></figure>
+    </article>
+
+    <article class="kalem" data-adim>
+      <div class="kalem-metin">
+        <h3>PDF ve DWG Çıktı Desteği</h3>
+        <p>Kapak ve içindekiler ile tam proje PDF’i. Çizimleri DXF ve DWG olarak CAD programlarına aktar.</p>
+        <dl class="kalem-ozellik"><div><dt>Biçimler</dt><dd>PDF · DXF · DWG · ZIP</dd></div><div><dt>Antet</dt><dd>Proje ve revizyon bilgisi</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/04-cikti.webp" srcset="assets/ekran/04-cikti-kucuk.webp 1280w, assets/ekran/04-cikti.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="Aktar ve kaydet penceresinde PDF, PNG, SVG, DWG ve DXF çıktı seçenekleri" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Proje çıktısı</figcaption></figure>
+    </article>
+
+    <article class="kalem kalem-ters" data-adim>
+      <div class="kalem-metin">
+        <h3>Profesyonel Proje Yönetimi</h3>
+        <p>Sayfaları düzenle, projede ara, revizyonları karşılaştır. Projeler bilgisayarında kalır; internet gerekmez.</p>
+        <dl class="kalem-ozellik"><div><dt>Revizyon</dt><dd>Özet ve karşılaştırma</dd></div><div><dt>Arama</dt><dd>Tüm projede Ctrl+F</dd></div></dl>
+      </div>
+      <figure class="plaka"><img src="assets/ekran/05-proje.webp" srcset="assets/ekran/05-proje-kucuk.webp 1280w, assets/ekran/05-proje.webp 2560w" sizes="(max-width: 900px) 100vw, 60vw" alt="Beş sayfalı projenin güç ve sürücüler sayfası; üstte sayfa sekmeleri" width="2560" height="1600" loading="lazy" decoding="async" data-ekran><figcaption>Proje</figcaption></figure>
+    </article>
+    </div>
+    <div class="hikaye-ekran-kolon" aria-hidden="true"><div class="hikaye-ekran" data-hikaye-ekran><div class="hikaye-katmanlar" data-hikaye-katman></div><p class="hikaye-alt" data-hikaye-alt></p></div></div>
+    </div>
+  </section>
+
+  <section class="videolar" id="videolar" aria-labelledby="video-baslik" data-video-bolum hidden>
+    <div class="videolar-ic">
+      <h2 id="video-baslik" class="bolum-baslik" data-goster>Programı çalışırken izle.</h2>
+      <div class="video-ana" data-video-ana data-buyu></div>
+      <ul class="video-liste" data-video-liste></ul>
+    </div>
+  </section>
+
+  <section class="veri" aria-labelledby="veri-baslik">
+    <div class="veri-ic">
+      <h2 id="veri-baslik" class="bolum-baslik" data-goster>Teknik bilgiler</h2>
+      <dl class="veri-tablo">
+        <div data-goster><dt>İşletim sistemi</dt><dd data-alan="isletimSistemi">Windows 10 ve 11 · 64 bit</dd></div>
+        <div data-goster><dt>Gereksinim</dt><dd data-alan="gereksinim">Microsoft Edge, Google Chrome veya Brave</dd></div>
+        <div data-goster><dt>Arayüz dili</dt><dd>Türkçe</dd></div>
+        <div data-goster><dt>Lisans</dt><dd>İlk açılışta lisans anahtarıyla bir kez etkinleştirilir; sonrasında internet gerekmez</dd></div>
+        <div data-goster><dt>PLC</dt><dd>Structured Text · Siemens ve Schneider CPU ve kartları</dd></div>
+        <div data-goster><dt>Dışa aktarma</dt><dd>PDF · DXF · DWG · XLSX · ZIP</dd></div>
+        <div data-goster><dt>İçe aktarma</dt><dd>EPLAN EDZ</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="belgeler" id="belgeler" aria-labelledby="belge-baslik">
+    <div class="belgeler-ic">
+      <h2 id="belge-baslik" class="bolum-baslik" data-goster>Belgeler ve dosyalar</h2>
+      <ul class="belge-liste">
+        <li data-goster>
+          <h3><a href="belgeler/OZTURK-CAD-Kurulum-ve-Etkinlestirme.pdf" data-kilavuz>Kurulum ve etkinleştirme kılavuzu</a></h3>
+          <p class="belge-tur">PDF · 3 sayfa · 61 KB</p>
+          <p>Kurulum, lisans anahtarını girme, süreli lisans ve sık karşılaşılan durumlar. Sürüm 1.16.0.</p>
+        </li>
+        <li data-goster>
+          <h3><a href="belgeler/OZTURK-CAD-Kullanim-Kilavuzu-1.16.0.pdf">Kullanım kılavuzu</a></h3>
+          <p class="belge-tur">PDF · 67 sayfa · 3,7 MB</p>
+          <p>Kurulum ve etkinleştirmeden çizim, simülasyon, PLC, HMI, ekipman kataloğu, pano yerleşimi ve çıktılara kadar adım adım. Sürüm 1.16.0.</p>
+        </li>
+        <li data-goster>
+          <h3><a href="belgeler/OZTURK-CAD-Ornek-Projeler.zip" download>Örnek projeler<svg class="belge-ok" aria-hidden="true"><use href="#ok-asagi"/></svg></a></h3>
+          <p class="belge-tur">ZIP · 16 proje · 34 KB</p>
+          <p>Buton ile lambadan PLC'li çift depolu pompa istasyonuna kadar 16 hazır proje. Programın içinde de hazır gelir; bu dosyalar paylaşmak ve derste dağıtmak için.</p>
+        </li>
+        <li data-goster>
+          <h3><a href="belgeler/OZTURK-CAD-Basin-Kiti.zip" download>Marka ve basın görselleri<svg class="belge-ok" aria-hidden="true"><use href="#ok-asagi"/></svg></a></h3>
+          <p class="belge-tur">ZIP · 2,9 MB</p>
+          <p>Amblem (SVG ve PNG), paylaşım görseli, video kapakları ve altı ekran görüntüsü.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="hakkinda" id="hakkinda" aria-labelledby="hakkinda-baslik">
+    <div class="hakkinda-ic" data-goster>
+      <h2 id="hakkinda-baslik" class="hakkinda-buyuk">ÖZTÜRK CAD, elektrik ve otomasyon projelerini sahaya çıkmadan önce çizmek, denemek ve teslim etmek için geliştirildi.</h2>
+      <p>Bir pano projesi çoğu zaman ayrı programlarda çizilir, ayrı bir yerde test edilir ve malzeme listesi elle çıkarılır. ÖZTÜRK CAD bunları tek projede birleştirir: şema, simülasyon, PLC programı, operatör ekranı, pano yerleşimi ve teslim dosyaları aynı veriden gelir.</p>
+    </div>
+  </section>
+
+  <section class="fiyat" id="fiyat" aria-labelledby="fiyat-baslik">
+    <div class="fiyat-ic">
+      <h2 id="fiyat-baslik" class="bolum-baslik" data-goster>Fiyat</h2>
+      <div class="fiyat-kart" data-egim>
+        <div class="fiyat-ust">
+          <p class="fiyat-tutar"><span data-fiyat-tutar>99 USD</span><small>/ yıl</small></p>
+          <p class="fiyat-not">İndirmek ücretsiz. Programı kullanmak için lisans anahtarı gerekir.</p>
+        </div>
+        <dl class="kalem-ozellik fiyat-ozellik">
+          <div><dt>Süre</dt><dd><span data-fiyat-gun>365</span> gün, anahtarı etkinleştirdiğin gün başlar</dd></div>
+          <div><dt>Bilgisayar</dt><dd>Her anahtar bir bilgisayarda etkinleşir</dd></div>
+          <div><dt>İnternet</dt><dd>Yalnız etkinleştirmede gerekir</dd></div>
+          <div><dt>Kapsam</dt><dd>Programın bütün özellikleri ve hazır örnek projeler</dd></div>
+        </dl>
+        <a class="fiyat-dugme" href="#" data-satin-al hidden>Satın almak için e-posta gönder</a>
+        <p class="fiyat-kanal" data-satin-al-yok>Satın alma için iletişim adresi kısa süre içinde burada yayımlanacak.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="indir" id="indir" aria-labelledby="indir-baslik">
+    <div class="indir-ic" data-goster>
+      <svg class="indir-amblem" aria-hidden="true" data-buyu><use href="#amblem"/></svg>
+      <h2 id="indir-baslik">ÖZTÜRK CAD’i indir.</h2>
+      <p class="indir-alt">Windows için kurulum dosyası. Kurulumdan sonra lisans anahtarınla bir kez etkinleştirirsin.</p>
+      <a class="indir-dugme" href="#indir" data-indir>
+        <span>ÖZTÜRK CAD’i İndir</span>
+        <svg aria-hidden="true"><use href="#ok-asagi"/></svg>
+      </a>
+      <p class="indir-hata" data-indir-hata role="alert" hidden></p>
+      <dl class="dosya-bilgi">
+        <div><dt>Sürüm</dt><dd data-alan="surum">—</dd></div>
+        <div><dt>Boyut</dt><dd data-alan="boyut">—</dd></div>
+        <div><dt>Tarih</dt><dd><time data-alan="tarih">—</time></dd></div>
+        <div><dt>Dosya</dt><dd data-alan="dosyaAdi">—</dd></div>
+        <div class="dosya-ozet"><dt>SHA-256</dt><dd data-alan="sha256">—</dd></div>
+      </dl>
+      <ol class="adimlar">
+        <li><b>Kur.</b> İndirilen dosyayı aç ve adımları izle. Windows “bilinmeyen yayımcı” uyarısı gösterebilir; “Ek bilgi” ve ardından “Yine de çalıştır” ile devam edebilirsin.</li>
+        <li><b>Etkinleştir.</b> İlk açılışta lisans anahtarını gir. Her anahtar tek bir bilgisayarda etkinleşir.</li>
+        <li><b>Başla.</b> Örnek projelerden birini aç ve simülasyonu çalıştır.</li>
+      </ol>
+      <p class="kilavuz"><a href="belgeler/OZTURK-CAD-Kurulum-ve-Etkinlestirme.pdf" data-kilavuz>Kurulum ve etkinleştirme kılavuzu (PDF)</a></p>
+      <div class="surum-notu" data-surum-notu hidden>
+        <h3>Bu sürümde neler var</h3>
+        <ul data-surum-notlari></ul>
+      </div>
+      <details class="onceki-surumler" data-onceki-bolum hidden>
+        <summary>Önceki sürümler</summary>
+        <p class="onceki-aciklama">Eski bir sürüme ihtiyacın varsa buradan indirebilirsin. Her sürümün yanında o sürümdeki değişiklikler yazıyor. Yeni kurulum için en güncel sürümü öneririz.</p>
+        <ol class="onceki-liste" data-onceki-surumler></ol>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="alt">
+  <div class="alt-ic">
+    <a class="marka" href="#ana-sayfa" aria-label="ÖZTÜRK CAD ana sayfa">
+      <svg class="marka-amblem" aria-hidden="true"><use href="#amblem"/></svg>
+      <span>ÖZTÜRK CAD</span>
+    </a>
+    <ul class="alt-baglanti">
+      <li data-iletisim hidden><a href="#" data-eposta>İletişim</a></li>
+      <li><a href="gizlilik.html">Gizlilik Politikası</a></li>
+      <li><a href="kullanim-kosullari.html">Kullanım Koşulları</a></li>
+    </ul>
+    <p class="telif">© 2026 ÖZTÜRK CAD. Tüm hakları saklıdır.<span class="gelistiren">Muhammet Ali Öztürk tarafından geliştirilmektedir.</span></p>
+  </div>
+</footer>
+</body>
+</html>

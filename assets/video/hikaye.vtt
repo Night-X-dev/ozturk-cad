@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00.800 --> 00:03.260
+Ustalar, hazır mıyız? Üretim bekliyor.
+
+00:03.815 --> 00:05.895
+Hazırız. Ali, bir başlatalım.
+
+00:06.335 --> 00:07.495
+Tamam ustam.
+
+00:11.130 --> 00:12.870
+Daha ilk çalıştırmada bu oldu!
+
+00:13.110 --> 00:14.570
+Bu firmaya nasıl güveneceğiz?
+
+00:15.315 --> 00:17.755
+Bu hatta milyonluk makineler çalışacak.
+
+00:18.075 --> 00:19.975
+Az kalsın onları da riske atıyordunuz!
+
+00:20.728 --> 00:22.128
+Bağlantıları kontrol etmiştik…
+
+00:22.718 --> 00:25.338
+Bir yerde gözümüzden kaçan bir şey var…
+
+00:28.818 --> 00:30.818
+Ustalarım, canınızı sıkmayın.
+
+00:31.278 --> 00:34.478
+Devreyi sahaya çıkmadan önce bilgisayarda
+deneyebilirsiniz.
+
+00:34.818 --> 00:36.018
+Ben de bunun için buradayım.
+
+00:36.788 --> 00:38.328
+İyi de… sen kimsin?
+
+00:38.828 --> 00:40.188
+Adım önemli değil ustam.
+
+00:40.748 --> 00:42.128
+Ben ÖZTÜRK CAD'den geliyorum;
+
+00:42.448 --> 00:43.868
+bu tür sürprizleri önlemeye.
+
+00:44.274 --> 00:45.634
+Nasıl yardımcı olacak?
+
+00:46.304 --> 00:49.384
+İzleyin. Aynı devreyi önce bilgisayarda
+çalıştıralım.
+
+00:51.124 --> 00:54.424
+Şemanı çiz, devreni simüle et ve projeni
+belgele.
+
+00:55.369 --> 00:59.049
+Parçanı kütüphaneden seç, yerleştir ve
+kabloyu uçtan uca çek.
+
+00:59.669 --> 01:02.809
+Güç, kumanda ve PLC sayfalarını aynı
+projede bağla;
+
+01:03.269 --> 01:04.869
+kablo yollarını tek tıkla toparla.
+
+01:05.987 --> 01:07.687
+Aynı devreyi simülasyonda çalıştır.
+
+01:08.027 --> 01:09.287
+Korumanın tepkisini gör;
+
+01:09.767 --> 01:13.292
+arıza analizindeki bulgudan ilgili cihaza
+git, bağlantıyı incele.
+
+01:13.307 --> 01:17.767
+Düzeltmeni dene; bobini, motoru, akımı ve
+devri birlikte izle.
+
+01:18.517 --> 01:20.417
+Peki PLC tarafı?
+
+01:21.139 --> 01:23.619
+PLC programını Structured Text ile yaz.
+
+01:23.979 --> 01:28.964
+Hazır şablondan başla; derle, sanal
+PLC'de çalıştır, girişleri, çıkışları ve
+
+01:28.979 --> 01:30.379
+değişkenleri canlı izle.
+
+01:31.280 --> 01:32.520
+Operatör ekranı da var mı?
+
+01:33.520 --> 01:37.905
+Operatör ekranını butonlar, göstergeler,
+tanklar, grafikler ve alarmlarla
+
+01:37.920 --> 01:40.400
+tasarla. Genişletilmiş kütüphanede ara;
+
+01:40.800 --> 01:44.060
+bileşeni PLC değişkenine ya da devredeki
+bir değere bağla.
+
+01:45.145 --> 01:46.950
+Simülasyonda operatör ekranı küçülür.
+
+01:46.965 --> 01:51.165
+İstediğin yere taşı; devre sayfaları
+arasında gezinirken birlikte kullan.
+
+01:51.645 --> 01:56.210
+Ekrandan PLC'ye yazdığın ayar değerleri
+projede saklanır ve PLC yeniden
+
+01:56.225 --> 01:57.625
+çalıştığında geri yüklenir.
+
+01:58.317 --> 02:00.337
+Elimde ürünün EDZ dosyası var.
+
+02:00.437 --> 02:01.397
+Onu kullanabilir miyiz?
+
+02:02.499 --> 02:06.544
+Ekipman kataloğunda marka ve model
+kayıtlarını, veri kaynağını ve
+sürümlerini
+
+02:06.559 --> 02:12.324
+takip et. EPLAN'ın EDZ dosyasından ürün
+bilgilerini, resmini ve bağlantı
+
+02:12.339 --> 02:15.459
+uçlarını içe aktar; eksik bilgileri
+program listeler.
+
+02:16.150 --> 02:21.198
+Kendi ürününü tanımla: uçlarını, resmini
+ve bobin, kontak, buton ya da yük
+
+02:21.213 --> 02:22.573
+gibi işlevlerini eşleştir.
+
+02:23.013 --> 02:26.613
+Ürününü kendi uç adlarıyla şemana ekle ve
+simülasyonda dene.
+
+02:27.470 --> 02:29.130
+Klemensleri dizi halinde ekle;
+
+02:29.510 --> 02:30.970
+numara çakışmalarında uyarı al.
+
+02:31.390 --> 02:35.395
+Şemadaki ekipmanlardan, DIN rayları ve
+kablo kanallarıyla ölçülü bir pano
+
+02:35.410 --> 02:36.970
+yerleşimi taslağı oluştur.
+
+02:37.935 --> 02:39.655
+Müşteriye hangi belgeleri vereceğiz?
+
+02:40.611 --> 02:44.536
+Malzeme ve kablo listelerini, teknik
+kataloğu ve revizyon özetini projenden
+
+02:44.551 --> 02:46.711
+oluştur; revizyonları karşılaştır.
+
+02:47.231 --> 02:48.476
+Listelerini Excel'e aktar;
+
+02:48.491 --> 02:52.151
+belgelerini düzenli klasörleriyle tek ZIP
+dosyasında paylaş.
+
+02:52.928 --> 02:56.388
+Kapaklı, içindekiler sayfalı antetli PDF
+al;
+
+02:56.668 --> 02:59.888
+şemalarını DWG ve DXF olarak paylaş.
+
+03:00.228 --> 03:04.068
+Türkçe arayüz, hazır örnekler ve proje
+aramasıyla çalışmanı sürdür.
+
+03:05.533 --> 03:08.653
+Yani önce burada deneyeceğiz, sonra
+sahaya geçeceğiz.
+
+03:09.369 --> 03:13.289
+Aynen ustam. Önce bilgisayarda dene,
+sonra sahada ölçümlerini yap.
+
+03:13.987 --> 03:16.547
+Kontroller tamam. Ali, bir daha
+başlatalım.
+
+03:18.475 --> 03:21.455
+İşte şimdi oldu. Emeğinize sağlık
+ustalar.
+
+03:22.915 --> 03:24.635
+ÖZTÜRK CAD. Şemadan panoya.
+
+03:25.135 --> 03:25.975
+Tek programda.

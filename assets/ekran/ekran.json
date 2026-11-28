@@ -1,0 +1,142 @@
+[
+  {
+    "dosya": "01-devre-tasarimi.webp",
+    "yedek": "01-devre-tasarimi.png",
+    "kucuk": "01-devre-tasarimi-kucuk.webp",
+    "baslik": "Elektrik devre tasarımı",
+    "aciklama": "PLC ile yıldız-üçgen yol verme örneğinin gerçek şema düzenleme ekranı.",
+    "alt": "ÖZTÜRK CAD koyu temada PLC, motor ve kumanda bağlantılarının bulunduğu yıldız-üçgen devre şeması",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "PLC ile yıldız-üçgen yolverme",
+      "sayfalar": [
+        "Devre"
+      ],
+      "aktifSayfa": "Devre",
+      "mod": "edit",
+      "parcalar": 56,
+      "kablolar": 57
+    }
+  },
+  {
+    "dosya": "02-simulasyon.webp",
+    "yedek": "02-simulasyon.png",
+    "kucuk": "02-simulasyon-kucuk.webp",
+    "baslik": "Canlı simülasyon ve HMI",
+    "aciklama": "Çift depolu pompa istasyonu örneği, simülasyon çalışırken kendi HMI ekranı ve gerçek hesaplanan değerleriyle görüntülenir.",
+    "alt": "Çalışan pompa istasyonu simülasyonu, PLC bağlantıları ve hareketli HMI operatör ekranındaki anlık değerler",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "Çift depolu pompa istasyonu · 5 PLC kartı",
+      "sayfalar": [
+        "Operatör",
+        "CPU ve dijital G/Ç",
+        "Analog G/Ç ve depolar",
+        "Güç ve sürücüler",
+        "Röleler ve valfler"
+      ],
+      "aktifSayfa": "CPU ve dijital G/Ç",
+      "mod": "run",
+      "parcalar": 198,
+      "kablolar": 130
+    }
+  },
+  {
+    "dosya": "03-malzeme.webp",
+    "yedek": "03-malzeme.png",
+    "kucuk": "03-malzeme-kucuk.webp",
+    "baslik": "Otomatik malzeme listesi",
+    "aciklama": "Örnek projedeki ekipmanlar, adetleri, teknik özellikleri ve etiketleriyle programın malzeme listesinde toplanır.",
+    "alt": "ÖZTÜRK CAD otomatik malzeme listesi; ekipman adları, teknik özellikler, etiketler ve miktar sütunları",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "Çift depolu pompa istasyonu · 5 PLC kartı",
+      "sayfalar": [
+        "Operatör",
+        "CPU ve dijital G/Ç",
+        "Analog G/Ç ve depolar",
+        "Güç ve sürücüler",
+        "Röleler ve valfler"
+      ],
+      "aktifSayfa": "CPU ve dijital G/Ç",
+      "mod": "edit",
+      "parcalar": 198,
+      "kablolar": 130
+    }
+  },
+  {
+    "dosya": "04-cikti.webp",
+    "yedek": "04-cikti.png",
+    "kucuk": "04-cikti-kucuk.webp",
+    "baslik": "Proje çıktıları",
+    "aciklama": "Programın gerçek Aktar ve kaydet ekranından PDF, görsel ve CAD çıktı seçenekleri görüntülenir.",
+    "alt": "Aktar ve kaydet penceresinde PDF, PNG, SVG, DWG ve DXF çıktı seçenekleri ile proje sayfa ayarları",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "Çift depolu pompa istasyonu · 5 PLC kartı",
+      "sayfalar": [
+        "Operatör",
+        "CPU ve dijital G/Ç",
+        "Analog G/Ç ve depolar",
+        "Güç ve sürücüler",
+        "Röleler ve valfler"
+      ],
+      "aktifSayfa": "CPU ve dijital G/Ç",
+      "mod": "edit",
+      "parcalar": 198,
+      "kablolar": 130
+    }
+  },
+  {
+    "dosya": "05-proje.webp",
+    "yedek": "05-proje.png",
+    "kucuk": "05-proje-kucuk.webp",
+    "baslik": "Çok sayfalı proje yönetimi",
+    "aciklama": "Pompa istasyonunun besleme, CPU ve kart sayfaları aynı proje altında yönetilir.",
+    "alt": "Çift depolu pompa istasyonunun çok sayfalı proje ekranı ve sayfa sekmeleri",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "Çift depolu pompa istasyonu · 5 PLC kartı",
+      "sayfalar": [
+        "Operatör",
+        "CPU ve dijital G/Ç",
+        "Analog G/Ç ve depolar",
+        "Güç ve sürücüler",
+        "Röleler ve valfler"
+      ],
+      "aktifSayfa": "Güç ve sürücüler",
+      "mod": "edit",
+      "parcalar": 198,
+      "kablolar": 130
+    }
+  },
+  {
+    "dosya": "06-pano.webp",
+    "yedek": "06-pano.png",
+    "kucuk": "06-pano-kucuk.webp",
+    "baslik": "Ölçülü pano yerleşimi",
+    "aciklama": "Örnek projenin ekipmanları programın otomatik yerleştirme özelliğiyle ölçülü pano üzerinde düzenlenir.",
+    "alt": "Ölçülü pano yerleşimi ekranında DIN rayları, kablo kanalları ve projeden gelen ekipmanlar",
+    "genislik": 2560,
+    "yukseklik": 1600,
+    "uygulama": {
+      "proje": "Çift depolu pompa istasyonu · 5 PLC kartı",
+      "sayfalar": [
+        "Operatör",
+        "CPU ve dijital G/Ç",
+        "Analog G/Ç ve depolar",
+        "Güç ve sürücüler",
+        "Röleler ve valfler"
+      ],
+      "aktifSayfa": "Güç ve sürücüler",
+      "mod": "edit",
+      "parcalar": 198,
+      "kablolar": 130
+    }
+  }
+]

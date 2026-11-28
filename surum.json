@@ -1,0 +1,39 @@
+{
+  "urun": "ÖZTÜRK CAD",
+  "surum": "1.16.1",
+  "tarih": "2026-11-27",
+  "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/v1.16.1/OZTURK-CAD-Kurulum-1.16.1.exe",
+  "dosyaAdi": "OZTURK-CAD-Kurulum-1.16.1.exe",
+  "boyutBayt": 21200443,
+  "sha256": "07926fc221c817b30c00b9410aab4df4dd6ec4004f372b358f1fad95f67f1f59",
+  "notlar": [
+    "Giderildi: Büyük projelerde (yaklaşık 6 sayfadan fazla) DWG çıktısı alınırken çıkan “DWG dönüştürülemedi” hatası. 80 sayfalık proje artık birkaç saniyede DWG oluyor.",
+    "Giderildi: DWG çıktısında ortalanmış ve sağa yaslı yazıların hizası kayboluyordu; artık AutoCAD’de doğru yerinde açılıyor.",
+    "1.16.0 üzerine kurulabilir; projelerin ve lisansın korunur."
+  ],
+  "oncekiSurumler": [
+    {
+      "surum": "1.16.0",
+      "tarih": "2026-11-26",
+      "dosya": "https://github.com/Night-X-dev/ozturk-cad/releases/download/v1.16.0/OZTURK-CAD-Kurulum-1.16.0.exe",
+      "dosyaAdi": "OZTURK-CAD-Kurulum-1.16.0.exe",
+      "boyutBayt": 17334525,
+      "sha256": "b133edfce90e026d1d938bae7dc629e3e1e4a2a12eca0e078f443e807519c1c9",
+      "notlar": [
+        "Yeni: Süreli lisans desteği ve tek kullanımlık çevrim içi etkinleştirme.",
+        "Yeni: EPLAN EDZ içe aktarma, bağımsız ürün tanımı, HMI ayar değerlerinin kalıcılığı.",
+        "Bilinen hata: Büyük projelerde DWG çıktısı alınamıyor (1.16.1’de giderildi)."
+      ]
+    }
+  ],
+  "isletimSistemi": "Windows 10 ve 11 · 64 bit",
+  "gereksinim": "Microsoft Edge, Google Chrome veya Brave yüklü olmalı",
+  "kilavuz": "belgeler/OZTURK-CAD-Kurulum-ve-Etkinlestirme.pdf",
+  "eposta": "OZTURKCAD@outlook.com",
+  "fiyat": {
+    "tutar": 99,
+    "paraBirimi": "USD",
+    "sureGun": 365
+  },
+  "videoListesi": "assets/video/video.json"
+}
